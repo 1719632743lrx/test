@@ -1,0 +1,178 @@
+﻿.top_header {
+		background-color: #ed3e26;
+}
+
+.header_banner {
+	position: relative;
+
+}
+.header_banner .close {
+	width: 20px;
+	height: 20px;
+	line-height: 20px;
+	display: block;
+	background-color: rgba(0,0,0,.3);
+	position: absolute;
+	top: 10px;
+	right: 0;
+	text-align: center;
+	cursor: pointer;
+	color: #fff;
+}
+
+
+.nav {
+	margin-bottom: 30px;
+	height: 30px;
+	border: 1px solid #dddddd;
+	background-color: #e3e4e5;
+	line-height: 30px;
+}
+.logo {
+	position: absolute;
+	top: -62px;
+	left: 0;
+}
+.nav_list li {
+	float: left;
+}
+.nav_list .line {
+	margin: 0 15px;
+	color: #ccc;
+}
+.nav_list li:first-child {
+	margin-right: 15px;
+}
+.nav_list li a:hover {
+	color: #f10215;
+}
+.nav_list span {
+	margin-left: 190px;
+}
+/*logo开始*/
+
+
+.logo_image {
+
+	width: 170px;
+	height: 170px;
+	display: block;
+	box-shadow: 4px 0px 15px #ccc;
+	background: url(../img/sprite.head.png) no-repeat;
+}
+
+/*搜索框开始*/
+.search_box {
+	margin-top: 30px;
+	height: 37px;
+	position: relative;
+}
+.search input:first-child {
+	width: 490px;
+	height: 37px;
+	padding-left: 10px;
+}
+.search input:first-child {
+	float: left;
+}
+.search input{
+	/*margin-top: 30px;*/
+}
+.search input:nth-child(2) {
+	width: 50px;
+	height: 37px;
+	background-color: #f10215;
+	float: left;
+	cursor: pointer;
+}
+.search {
+	height: 50px;
+	position: relative;
+	width: 550px;
+	margin-left: 300px;
+}
+.icon-zhaoxiangji {
+	top: 10px;
+	right: 55px;
+	position: absolute;
+	color: #666;
+
+}
+.icon-sousuo {
+	top: 10px;
+	right: 15px;
+	position: absolute;
+	color: #fff;
+	cursor: pointer;
+}
+
+.search_box .car {
+	width: 180px;
+	height: 33px;
+	line-height: 33px;
+	text-align: center;
+	border: 1px solid #ccc;
+	background-color: #fff;
+	position: relative;
+	margin-left: 30px;
+
+}
+
+.car .icon-gouwuchetianjia {
+	color: red;
+}
+.car a {
+	color: red;
+}
+.car .sign {
+	display:inline-block;
+	width: 18px;
+	height: 18px;
+	line-height: 22px;
+	text-align: center;
+	background-color: red;
+	border-radius: 10px;
+	color: white;
+	position: absolute;
+	top: 2px;
+	right: 20px;
+}
+.imgs img {
+	width: 60px;
+	height: 60px;
+}
+.search_box .imgs {
+	width: 66px;
+	height: 66px;
+	line-height: 66px;
+	text-align: center;
+	border: 1px solid #cfcfcf;
+	margin-top: -30px;
+	margin-left: 60px;
+}
+.lists li {
+	float: left;
+	margin-right: 10px;
+
+}
+.lists  {
+	margin-left: 296px;
+}
+.nav_lists li {
+	float: left;
+	margin-right: 30px;
+}
+.nav_lists li a {
+	color: #333333;
+}
+.nav_lists ul {
+	margin-left: 200px;
+	margin-top: 32px;
+}
+.nav_lists .lines {
+	color: #ccc;
+	font-size: 12px;
+}
+.flower img {
+	margin-top: 11px;
+}
